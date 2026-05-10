@@ -24,4 +24,4 @@ Nostra is a modern, responsive e-commerce frontend project built with HTML, CSS,
 
 ## Getting Started
 
-To view the project locally, simply open the `index.html` file in your preferred web browser. No complex build tools or servers are required.
+To view the project locally, simply open the [index.html](https://madaswamy14.github.io/javaScript/nostraE-Commerce/index.html) in your preferred web browser. No complex build tools or servers are required.
