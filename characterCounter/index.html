@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-time Character Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .warning {
+            color: red;
+            display: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Real-time Character Counter</h1>
+    <p>Maximum 200 characters</p>
+    <textarea id="message" cols="40" rows="5" maxlength="200"></textarea>
+    <p id="charcount">0/200 characters</p>
+    <p class="warning">You have reached the character limit!</p>
+    <button id="clearBtn">Clear Message</button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

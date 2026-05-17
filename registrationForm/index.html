@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <form id="regform">
+        <h1>Registration Form</h1>
+        
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Enter your name" id="name" minlength="3" maxlength="100">
+            <span id="nameerror" class="error-msg">Name must contain only letters and be at least 3 characters long</span>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Enter your email" id="email">
+            <span id="emailerror" class="error-msg">Please provide a valid Email address</span>
+        </div>
+
+        <div class="form-group">
+            <label for="pswd">Password:</label>
+            <input type="password" id="pswd">
+            <span id="pswderror" class="error-msg">Password must contain at least 6 characters</span>
+        </div>
+
+        <button id="btn" disabled>Submit</button>
+    </form>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
